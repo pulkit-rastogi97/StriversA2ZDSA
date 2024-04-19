@@ -1,4 +1,6 @@
-package Step1.LearningTheBasics;
+package Step1.LearningTheBasics.LearningTheBasicsThingsToKnowInJava;
+
+import utilities.IOUtils;
 
 public class SumOfEvenOdd {
 

@@ -1,4 +1,4 @@
-package Step1.LearningTheBasics;
+package Step1.LearningTheBasics.LearningTheBasicsThingsToKnowInJava;
 
 import java.util.Scanner;
 

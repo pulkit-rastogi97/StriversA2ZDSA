@@ -1,4 +1,6 @@
-package Step1.LearningTheBasics;
+package Step1.LearningTheBasics.LearningTheBasicsThingsToKnowInJava;
+
+import utilities.IOUtils;
 
 /**
  * Question Link: https://www.naukri.com/code360/problems/nth-fibonacci-number_74156?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf&leftPanelTabValue=PROBLEM
