@@ -42,4 +42,8 @@ public class IOUtils {
 	public static String takeStringInput() {
 		return scan.next();
 	}
+
+	public static long takeLongInput() {
+		return scan.nextLong();
+	}
 }
