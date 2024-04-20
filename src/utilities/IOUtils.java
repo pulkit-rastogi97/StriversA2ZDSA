@@ -1,5 +1,6 @@
 package utilities;
 
+import java.util.List;
 import java.util.Scanner;
 
 public class IOUtils {
@@ -45,5 +46,9 @@ public class IOUtils {
 
 	public static long takeLongInput() {
 		return scan.nextLong();
+	}
+
+	public static void printList(List<?> factorialNumbers) {
+		System.out.println(factorialNumbers);
 	}
 }
