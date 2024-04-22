@@ -15,6 +15,18 @@ public class IOUtils {
 		return arr;
 	}
 	
+	public static int[][] take2DArrayInput() {
+		int n = scan.nextInt();
+		int m = scan.nextInt();
+		int[][] arr = new int[n][m];
+		for(int i = 0; i < n; i++) {
+			for(int j = 0; j < m; j++) {
+				arr[i][j] = scan.nextInt();
+			}
+		}
+		return arr;
+	}
+	
 	public static double[] takeArrayInputDouble() {
 		int n = scan.nextInt();
 		double[] arr = new double[n];
