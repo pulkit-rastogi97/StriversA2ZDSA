@@ -1,5 +1,6 @@
 package utilities;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
@@ -14,6 +15,16 @@ public class IOUtils {
 		}
 		return arr;
 	}
+	
+	public static ArrayList<Integer> takeListInput() {
+		int n = scan.nextInt();
+		ArrayList<Integer> arr = new ArrayList<Integer>(n);
+		for(int i = 0; i < n; i++) {
+			arr.set(i, scan.nextInt());
+		}
+		return arr;
+	}
+	
 	
 	public static int[][] take2DArrayInput() {
 		int n = scan.nextInt();
