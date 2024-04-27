@@ -66,6 +66,10 @@ public class IOUtils {
 	public static String takeStringInput() {
 		return scan.next();
 	}
+	
+	public static String takeStringLineInput() {
+		return scan.nextLine();
+	}
 
 	public static long takeLongInput() {
 		return scan.nextLong();
